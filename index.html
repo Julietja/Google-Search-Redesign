@@ -11,7 +11,7 @@
 <body>
  <div id="body">
  <!-- Beginning of mobile header -->
- <header>
+ <header class="mobile-header">
 
  <div class="first-header">
   <!-- Mobile dropdown menu -->
@@ -53,7 +53,33 @@
   <img src="images/download.svg" alt="" width="25px">
  </div>
 </div>
-<ul class="links">
+ </header>
+ <!-- End of mobile header -->
+
+ <!-- Beginning of Desktop header -->
+ <header class="desktop-header">
+  <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="Google logo" style="width: 90px;">
+  <div class="second-header">
+    <div class="search-area">
+     <img src="images/search.png" alt="">
+     <input type="text" class="search" placeholder="Lionel Messi" />
+    </div>
+    <div class="search-icons">
+      <img src="images/svgexport-2.png" alt="" style="border-right: 1px solid rgb(212, 210, 210); padding-right: 10px;">
+     <img src="images/voice.svg" alt="">
+     <img src="images/download.svg" alt="" width="25px">
+     <img src="images/svgexport-4.png" alt="">
+    </div>
+  </div>
+
+    <div class="right">
+    <img src="images/svgexport-6.png" alt="">
+    <img src="images/svgexport-7.png" alt="">
+    <img src="https://lh3.googleusercontent.com/ogw/AOh-ky0AJnnRlSYF6_QePskAZKYUOdqyWLLLX_5jwgrjyA=s32-c-mo" alt="" style="border-radius: 50%;" />
+    </div>
+ </header>
+ <!-- End of desktop header -->
+ <ul class="links">
   <li><a href="https://www.google.com/search?q=lionel+messi&hl=en&source=lnms&sa=X&ved=2ahUKEwjbzoKs8aj8AhUrQ6QEHRkBDR8Q_AUoAHoECAoQAg&biw=799&bih=600&dpr=1">All</a></li>
   <li><a href="https://www.google.com/search?q=lionel+messi&source=lnms&tbm=nws&sa=X&ved=2ahUKEwjnx5HR76j8AhUZWaQEHa9ZBo8Q_AUoAXoECAEQAw&cshid=1672662222567368&biw=500&bih=600&dpr=1">News</a></li>
   <li><a href="https://www.google.com/search?q=lionel+messi&tbm=isch&source=lnms&sa=X&ved=2ahUKEwjgq_rs8Kj8AhWkVKQEHWsGBCEQ_AUoAnoECAEQBA&biw=500&bih=600&dpr=1">Images</a></li>
@@ -61,23 +87,31 @@
   <li><a href="https://www.google.com/maps?q=lionel+messi&hl=en&biw=799&bih=600&dpr=1&um=1&ie=UTF-8&sa=X&ved=2ahUKEwi5gqqa8aj8AhW3TaQEHV_aBt4Q_AUoAHoECAEQCQ">Maps</a></li>
   <li><a href="https://www.google.com/search?q=lionel+messi&hl=en&source=lnms&tbm=bks&sa=X&ved=2ahUKEwi5gqqa8aj8AhW3TaQEHV_aBt4Q_AUoAXoECAEQCg&biw=799&bih=600&dpr=1">Books</a></li>
  </ul>
- </header>
- <!-- End of mobile header -->
+ <div class="timer"><p>About 149,000,000 results (0.52 seconds) </p></div>
 
- <div class="profile">
- <div class="name">
-  <h1>Lionel Messi</h1>
-  <i fa ></i>
- </div>
-  <p class="role">Footballer</p>
- <div class="butns">
-  <button id="overview">Overview</button>
-  <button>Stats</button>
-  <button>Videos</button>
-  <button>News</button>
- </div>
- </div>
- <hr class="rule">
+<!--Beginning of Profile section -->
+<section id="profile-section">
+  <img src="images/profile-img.jpeg" alt="">
+  <div class="profile">
+    <div class="name"><h1>Lionel Messi</h1></div>
+     <div class="role"><p>Footballer</p></div>
+  </div>
+  
+     <div class="buttons">
+      <div class="butns">
+        <button id="overview"><a href="https://www.google.com/search?q=lionel+messi&oq=lionel&aqs=chrome.0.0i131i355i433i512j46i131i433i512j69i57j46i433i512l2j69i60l3.3892j0j7&sourceid=chrome&ie=UTF-8">Overview</a></button>
+      
+        <button><a href="https://www.google.com/search?q=lionel+messi&oq=lionel&aqs=chrome.0.0i131i355i433i512j46i131i433i512j69i57j46i433i512l2j69i60l3.3892j0j7&sourceid=chrome&ie=UTF-8&si=AEcPFx7cBWmhotqAqJms-tchDs3rERF-x6zE_ut-HCUQuo5zbWt3k_VK9cScz3Z_7MkNk6eEgetL86J-x2q6WrcW59czj3E2e4Qr3QzMB1bW5W_M_Af-SPE%3D&ictx=1&ved=2ahUKEwix3JuE97z8AhXEVaQEHRXwDt0QyNoBKAB6BAgLEAA#wptab=s:H4sIAAAAAAAAAOMwe8Soxy3w8sc9YSnVSWtOXmOU52LxSy0vFhLnYnPNK8ksqRTileLm4tTP1TcwK8xKT-ZZxMqTk5mfl5qjkJtaXJwJAE3hgNJCAAAA">News</a></button>
+        
+        <button><a href="https://www.google.com/search?q=lionel+messi&oq=lionel&aqs=chrome.0.0i131i355i433i512j46i131i433i512j69i57j46i433i512l2j69i60l3.3892j0j7&sourceid=chrome&ie=UTF-8&si=AEcPFx7cBWmhotqAqJms-tchDs3rERF-x6zE_ut-HCUQuo5zbWt3k_VK9cScz3Z_7MkNk6eEgetL86J-x2q6WrcW59czj3E2e4Qr3QzMB1bW5W_M_Af-SPE%3D&ictx=1&ved=2ahUKEwix3JuE97z8AhXEVaQEHRXwDt0QyNoBKAB6BAgLEAA#wptab=si:AEcPFx77rBMmR1ec7jm-zPlxI-k0Nn77i1TqpN8qfmrqpzR3-UQ0TQKM16sFl8gwr_3IFaF4it7PlGtb5xjN_o2R9rzsc25Ekp-jXlFLOo8vDsykt0-4vqg0qjaXPQaIXoWn_sVbuMtB">Stats</a></button>
+      
+        <button><a href="https://www.google.com/search?q=lionel+messi&oq=lionel&aqs=chrome.0.0i131i355i433i512j46i131i433i512j69i57j46i433i512l2j69i60l3.3892j0j7&sourceid=chrome&ie=UTF-8&si=AEcPFx7cBWmhotqAqJms-tchDs3rERF-x6zE_ut-HCUQuo5zbWt3k_VK9cScz3Z_7MkNk6eEgetL86J-x2q6WrcW59czj3E2e4Qr3QzMB1bW5W_M_Af-SPE%3D&ictx=1&ved=2ahUKEwix3JuE97z8AhXEVaQEHRXwDt0QyNoBKAB6BAgLEAA#wptab=si:AEcPFx4R2j00zkMn08sr4nbzHGd6kmfQuQ6w1Rl5GuIBlwHbGIxSAq1Gft2VwDwWcHmx5s28og4X7Y7BFpab9NZnXNWtdpv27aHYfmxHveC-E1g5i5ySyXFmi3qnPVFli6WpxyUBF8KR">Videos</a></button>
+       </div>
+       </div>
+  </div>
+</section>
+ 
+ <hr class="rule" style="margin-top: 20px;">
 
  <!-- Add a main flexbox container below -->
  <div class="main-container">
