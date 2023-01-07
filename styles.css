@@ -38,7 +38,7 @@ section{
 .dropdown-content{
  background-color: white;
  display: none;
- position: absolute;
+ position: fixed;
  top: -20px;
  bottom: 0;
  left: -20px;
